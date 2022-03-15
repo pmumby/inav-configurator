@@ -1150,6 +1150,13 @@ var FC = {
                 hasOperand: [true, true],
                 output: "raw"
             },
+            45: {
+                name: "Override Motor",
+                operandType: "Set Flight Parameter",
+                hasOperand: [true, true],
+                output: "boolean"
+            },
+
         }
     },
     getOperandTypes: function () {
