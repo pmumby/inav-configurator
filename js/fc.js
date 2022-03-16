@@ -1156,6 +1156,12 @@ var FC = {
                 hasOperand: [true, true],
                 output: "boolean"
             },
+            46: {
+                name: "Override Motor Dir",
+                operandType: "Set Flight Parameter",
+                hasOperand: [true, true],
+                output: "boolean"
+            },
 
         }
     },
